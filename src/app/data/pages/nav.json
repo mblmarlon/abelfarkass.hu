@@ -1,0 +1,23 @@
+{
+  "navbar": {
+    "logo": {
+      "src": ""
+    },
+    "nav": [{
+      "title": "Portrait",
+      "href": "/portrait"
+    }, {
+      "title": "Fashion",
+      "href": "/fashion"
+    }, {
+      "title": "Still",
+      "href": "/still"
+    }, {
+      "title": "Contact",
+      "href": "/contact"
+    }]
+  },
+  "footer": {
+
+  }
+}
