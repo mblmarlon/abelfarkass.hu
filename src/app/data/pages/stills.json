@@ -1,0 +1,19 @@
+{
+    "title": "Stills",
+    "images": [{
+        "src": "stills/still-1.jpg",
+        "alt": ""
+    }, {
+        "src": "stills/still-2.jpg",
+        "alt": ""
+    }, {
+        "src": "stills/still-3.jpg",
+        "alt": ""
+    }, {
+        "src": "stills/still-4.jpg",
+        "alt": ""
+    }, {
+        "src": "stills/still-5.jpg",
+        "alt": ""
+    }]
+}

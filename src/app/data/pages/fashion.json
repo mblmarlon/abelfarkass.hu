@@ -1,0 +1,31 @@
+{
+    "title": "Fashion",
+    "images": [{
+        "src": "fashion/fashion-1.jpg",
+        "alt": ""
+    }, {
+        "src": "fashion/fashion-2.jpg",
+        "alt": ""
+    }, {
+        "src": "fashion/fashion-3.jpg",
+        "alt": ""
+    }, {
+        "src": "fashion/fashion-4.jpg",
+        "alt": ""
+    }, {
+        "src": "fashion/fashion-5.jpg",
+        "alt": ""
+    }, {
+        "src": "fashion/fashion-6.jpg",
+        "alt": ""
+    }, {
+        "src": "fashion/fashion-7.jpg",
+        "alt": ""
+    }, {
+        "src": "fashion/fashion-8.jpg",
+        "alt": ""
+    }, {
+        "src": "fashion/fashion-9.jpg",
+        "alt": ""
+    }]
+}

@@ -1,4 +1,5 @@
 import * as React from 'react';
+import './footer.partial.scss';
 
 export interface FooterProps {
 }
@@ -6,7 +7,7 @@ export interface FooterProps {
 export class Footer extends React.Component<FooterProps, any> {
   public render() {
     return (
-      <footer className="text-uppercase">
+      <footer className="footer-partial text-uppercase">
         Footer
       </footer>
     );
