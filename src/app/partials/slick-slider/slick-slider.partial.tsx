@@ -16,7 +16,7 @@ export class SlickSlider extends React.Component<SlickSliderProps> {
   render() {
     const settings = {
       accessibility: true,
-      adaptiveHeight: true,
+      adaptiveHeight: false,
       arrows: true,
       centerMode: true,
       centerPadding: "0px",
@@ -31,6 +31,34 @@ export class SlickSlider extends React.Component<SlickSliderProps> {
       swipeToSlide: true,
       swipe: true,
       touchMove: true,
+      responsive: [ 
+        {
+          breakpoint: 1024,
+          settings: {
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            infinite: true,
+            dots: true
+          }
+        },
+        {
+          breakpoint: 700,
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            initialSlide: 2,
+            dots: false
+          }
+        },
+        {
+          breakpoint: 480,
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            dots: false
+          }
+        }
+      ]
     };
     return (
       <div className="partial-slider">

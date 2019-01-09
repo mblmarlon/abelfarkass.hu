@@ -1,12 +1,25 @@
 {
   "title": "Abel Farkass Photography",
   "images": [{
-    "src": ""
+    "src": "portraits/portrait-1.jpg",
+    "alt": ""
   }, {
-    "src": ""
+    "src": "stills/still-4.jpg",
+    "alt": ""
   }, {
-    "src": ""
+    "src": "portraits/portrait-7.jpg",
+    "alt": ""
   }, {
-    "src": ""
+    "src": "fashion/fashion-5.jpg",
+    "alt": ""
+  }, {
+    "src": "portraits/portrait-3.jpg",
+    "alt": ""
+  }, {
+      "src": "fashion/fashion-6.jpg",
+      "alt": ""
+  }, {
+    "src": "stills/still-1.jpg",
+    "alt": ""
   }]
 }

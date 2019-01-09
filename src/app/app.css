@@ -1,6 +1,19 @@
-body {
-  overflow-x: hidden;
-  min-height: 100vh;
+@import url('https://fonts.googleapis.com/css?family=Rokkitt');
+
+* {
+  font-family: 'Rokkitt', serif;
+}
+.navbar {
+  z-index: 99;
+}
+
+main {
+  min-height: 90vh;
+  padding-top: 88px;
+  margin-bottom: -10vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .App {

@@ -4,7 +4,10 @@ import './index.css';
 import { App } from './app/app';
 import * as serviceWorker from './serviceWorker';
 
+require('jquery');
 import 'bootstrap/dist/css/bootstrap.css';
+import 'bootstrap/dist/js/bootstrap.js';
+
 
 ReactDOM.render(<App />, document.getElementById('root'));
 

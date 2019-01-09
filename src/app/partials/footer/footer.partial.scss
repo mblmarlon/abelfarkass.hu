@@ -1,5 +1,15 @@
 .footer-partial {
-    position: absolute;
+    display: flex;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 1rem;
     bottom: 0;
     width: 100%;
+    height: 10vh;
+
+    > a {
+        color: black;
+        font-size: 10px
+    }
 }

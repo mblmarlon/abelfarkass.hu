@@ -13,12 +13,6 @@
         "src": "portraits/portrait-4.jpg",
         "alt": ""
     }, {
-        "src": "portraits/portrait-5.jpg",
-        "alt": ""
-    }, {
-        "src": "portraits/portrait-6.jpg",
-        "alt": ""
-    }, {
         "src": "portraits/portrait-7.jpg",
         "alt": ""
     }, {
@@ -44,6 +38,21 @@
         "alt": ""
     }, {
         "src": "portraits/portrait-15.jpg",
+        "alt": ""
+    }, {
+        "src": "portraits/portrait-16.jpg",
+        "alt": ""
+    }, {
+        "src": "portraits/portrait-17.jpg",
+        "alt": ""
+    }, {
+        "src": "portraits/portrait-18.jpg",
+        "alt": ""
+    }, {
+        "src": "portraits/portrait-19.jpg",
+        "alt": ""
+    }, {
+        "src": "portraits/portrait-20.jpg",
         "alt": ""
     }]
 }
