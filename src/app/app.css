@@ -7,17 +7,30 @@
   z-index: 99;
 }
 
-main {
-  min-height: 90vh;
-  padding-top: 88px;
-  margin-bottom: -10vh;
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
+html, 
+body {
+    height: 100%;
+}
+
+.page-title {
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  z-index: 10;
 }
 
 .App {
   text-align: center;
+  padding-top: 66px;
+  max-height: 100vh;
+}
+@media screen and (max-width: 500px) {
+  .App {
+    padding-top: 50px;
+  }
+}
+.content-wrapper {
+  max-width: 100%;
 }
 
 .App-logo {

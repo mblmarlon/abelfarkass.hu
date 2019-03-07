@@ -1,33 +1,100 @@
-
-.partial-slider {
-    padding: 0 50px;
+@media only screen and (min-width: 480px) {
+    .partial-slider {
+        padding: 0 50px;
+        
+        .slick-slider {
+            height: 80vh;
+            max-width: 100vw;
+        }
+        
+        .slick-list {
+            height: 100%;
+        }
     
-    .slick-next:before, .slick-prev:before {
-        color: #000;
-    }
+        .slick-track {
+            height: 100%;
+        }
+    
+        .slick-next:before, .slick-prev:before {
+            color: #000;
+        }
+    
+        .slick-slide {
+            > div {
+                height: 100%;
+                padding: 20px;
+                overflow: hidden;
+                transition: transform 0.4s ease-in-out;
+                
+    
+                > img {
+                    height: 100%;
+                    width: auto !important;
+                }
+    
+                @media only screen and (min-width: 600px)  {
+                    &:hover {
+                        transform: scale(1.1);
+                    }
+                }
+            }
+        }
+    
+        .img-fit {
+            object-fit: contain;
+            margin: 0px 10px;
+        }
+    
+        .slick-dots {
+            bottom: 30px;
+    
+            li {
+                button {
+                    &:before {
+                        opacity: .8;
+                        color: #fff;
+                    }
+                }
+    
+                &.slick-active {
+                    button:before {
+                        opacity: 1;
+                        color: #000;
+                    }
+                }
+            }
+        }
+    }    
+}
 
-    .slick-slide {
-        > div {
-            padding: 20px;
-            overflow: hidden;
-            transition: transform 0.4s ease-in-out;
-            
-            @media only screen and (min-width: 600px)  {
-                &:hover {
-                    transform: scale(1.1);
+@media only screen and (max-width: 600px) {
+    .partial-slider {
+        max-height: 50vh;
+        .slick-slide {
+            > div {
+                overflow: hidden;
+                transition: transform 0.4s ease-in-out;
+                
+    
+                > img {
+                    height: 40vh;
+                    padding: 0px 10px 0px 5px;
+                    width: auto !important;
                 }
             }
         }
     }
+}
 
-    .img-fit {
-        height: 400px;
-        //width: 100%;
-        object-fit: contain;
-        margin: 0px 10px;
-
-        @media only screen and (max-width: 600px)  {
-            height: 45vh;
-        }
+.imge-fit {
+    object-fit: contain;
+    height: 90vh;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    max-width: 100vw;
+    > img {
+        max-width: 100vw;
+        max-height: 100%;
     }
 }

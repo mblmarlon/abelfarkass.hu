@@ -5,9 +5,9 @@ import AppRouter from './app.router';
 export class App extends Component {
   render() {
     return (
-      <div className="App">
+      <main className="App h-100">
         <AppRouter />
-      </div>
+      </main>
     );
   }
 }

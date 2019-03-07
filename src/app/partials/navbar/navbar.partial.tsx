@@ -1,5 +1,5 @@
 import * as React from 'react';
-
+import "./navbar.partial.scss";
 
 const navData = require('../../data/pages/nav.json');
 const navbar = navData.navbar;

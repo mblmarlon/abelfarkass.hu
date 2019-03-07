@@ -6,12 +6,23 @@ const homeData = require('../../data/pages/home.json');
 export interface HomeProps {
 }
 
-export class Home extends React.Component<HomeProps, any> {
+export class Home extends React.Component<HomeProps> {
+
+  componentDidMount() {
+    console.log('did mount');
+  }
+
+  componentDidUpdate() {
+    console.log('component did update');
+  }
+
   public render() {
     return (
-      <div>
-        <div className="mt-md-5">
-          <SlickSlider images={homeData.images} />
+      <div className="pages-home h-100">
+        <div className="content-wrapper">
+          <div>
+            <SlickSlider images={homeData.images} />
+          </div>
         </div>
       </div>
     );

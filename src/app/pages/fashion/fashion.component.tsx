@@ -9,10 +9,12 @@ export interface FashionProps {
 export class Fashion extends React.Component<FashionProps, any> {
   public render() {
     return (
-      <div>
-        <h1 className="mt-2">{data.title}</h1>
-        <div className="mt-md-5">
-          <SlickSlider images={data.images} />
+      <div className="pages-portraits h-100">
+        <h1 className="page-title">{data.title}</h1>
+        <div className="pages-content h-100 d-flex align-items-center">
+          <div className="content-wrapper">
+            <SlickSlider images={data.images} />
+          </div>
         </div>
       </div>
     );
