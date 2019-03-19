@@ -16,15 +16,17 @@ export interface AppRouterProps {
 export class AppRouter extends React.Component<AppRouterProps> {
   public render() {
     return (
-      <Router history={createBrowserHistory()}>
-        <Switch>
-          <Route exact path={'/'} component={Home}/>
-          <Route exact path={'/fashion'} component={Fashion}/>
-          <Route exact path={'/portraits'} component={Portraits}/>
-          <Route exact path={'/still'} component={Still}/>
-          <Route exact path={'/contact'} component={Contact}/>
-        </Switch>
-      </Router>
+      <div className="route">
+        <Router history={createBrowserHistory()}>
+          <Switch>
+            <Route exact path={'/'} component={Home}/>
+            <Route exact path={'/fashion'} component={Fashion}/>
+            <Route exact path={'/portraits'} component={Portraits}/>
+            <Route exact path={'/still'} component={Still}/>
+            <Route exact path={'/contact'} component={Contact}/>
+          </Switch>
+        </Router>
+      </div>
     );
   }
 }

@@ -10,10 +10,7 @@ import 'bootstrap/dist/js/bootstrap.js';
 import Navbar from './app/partials/navbar/navbar.partial';
 import Footer from './app/partials/footer/footer.partial';
 
-
-ReactDOM.render(<Footer />, document.getElementById('footer'));
-ReactDOM.render(<Navbar />, document.getElementById('header'));
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root') as HTMLElement);
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
